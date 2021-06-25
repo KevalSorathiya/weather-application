@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>headerLinks}}
+</head>
+
+<body>
+    {{>navbar}}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <div class="col-md col-12 main_header_left align-items-center">
+                        <figure>
+                            <img src="images/pagenotfound.jpg" alt="about_page" class="img-fluid" title="books image">
+                        </figure>
+                        <p>Welcome to Weather App</p>
+                        <h1>{{errorMsg}}</h1>
+                         <a href="/"><button>Back To Home</button></a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer code  -->
+   {{>footer}}
+</body>
+
+</html>
